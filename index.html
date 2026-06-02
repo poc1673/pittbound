@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="moveburgh helps you get set up and ready for Pittsburgh. Sign up for updates.">
+  <meta name="theme-color" content="#1a1a1b">
+  <title>moveburgh — Coming soon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="hero" role="main">
+    <header class="hero__header">
+      <h1 class="wordmark">moveburgh</h1>
+      <p class="tagline">Get set up and ready for Pittsburgh.</p>
+    </header>
+
+    <section class="signup" aria-labelledby="signup-heading">
+      <div class="signup__card">
+        <h2 id="signup-heading" class="signup__title">Stay in the loop</h2>
+        <p class="signup__hint">We&rsquo;ll let you know when moveburgh launches.</p>
+
+        <form
+          id="signup-form"
+          class="signup__form"
+          action="https://formspree.io/f/xdajllab"
+          method="POST"
+          novalidate
+        >
+          <input
+            type="text"
+            name="_gotcha"
+            class="signup__honeypot"
+            tabindex="-1"
+            autocomplete="off"
+            aria-hidden="true"
+          >
+          <div class="signup__fields">
+            <label class="signup__label" for="email">Email address</label>
+            <input
+              class="signup__input"
+              type="email"
+              id="email"
+              name="email"
+              autocomplete="email"
+              placeholder="you@example.com"
+              required
+            >
+            <button id="submit-button" class="signup__button" type="submit">Notify me</button>
+          </div>
+          <p id="form-message" class="signup__message" role="status" aria-live="polite"></p>
+        </form>
+
+        <p id="success-message" class="signup__success" hidden role="status" aria-live="polite">
+          You&rsquo;re on the list. We&rsquo;ll be in touch when moveburgh launches.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
