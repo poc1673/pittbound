@@ -83,10 +83,17 @@ body {
 
 .signup {
   width: 100%;
-  max-width: 32rem;
+  max-width: 56rem;
   margin-top: auto;
 }
 
+.signup__layout {
+  display: flex;
+  gap: 1.25rem;
+  align-items: stretch;
+}
+
+.signup__intro-card,
 .signup__card {
   padding: 1.75rem;
   background: var(--card-bg);
@@ -94,6 +101,27 @@ body {
   border-radius: 12px;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+}
+
+.signup__intro-card {
+  flex: 1.35 1 0;
+  min-width: 0;
+}
+
+.signup__card {
+  flex: 1 1 18rem;
+  min-width: 0;
+  max-width: 22rem;
+}
+
+.signup__intro {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.signup__intro + .signup__intro {
+  margin-top: 1rem;
 }
 
 .signup__title {
@@ -211,12 +239,26 @@ body {
   display: none;
 }
 
+@media (max-width: 720px) {
+  .signup__layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signup__intro-card,
+  .signup__card {
+    width: 100%;
+    max-width: 32rem;
+  }
+}
+
 @media (max-width: 480px) {
   .hero {
     background-position: 60% center;
     padding: 2rem 1.25rem 2.5rem;
   }
 
+  .signup__intro-card,
   .signup__card {
     width: 90%;
     margin: 0 auto;

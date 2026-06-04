@@ -16,54 +16,58 @@
     </header>
 
     <section class="signup" aria-labelledby="signup-heading">
-      <div class="signup__card">
-        <p class="signup__intro">
-          Moving to a new city is complicated. Pittbound helps make the move to Pittsburgh easier.
-        </p>
-        <p class="signup__intro">
-          Pittsburgh is a city of distinct neighborhoods, shaped by its rivers, hills, history, and local character. Those differences make the city interesting, but they also make it harder for newcomers to know which neighborhood is right for them from listings alone.
-        </p>
-        <p class="signup__intro">
-          Pittbound is designed to be the final step in your research: a practical guide to where you might want to live, what questions you should ask, and what the answers mean for your day-to-day life.
-        </p>
+      <div class="signup__layout">
+        <div class="signup__intro-card">
+          <p class="signup__intro">
+            Moving to a new city is complicated. Pittbound helps make the move to Pittsburgh easier.
+          </p>
+          <p class="signup__intro">
+            Pittsburgh is a city of distinct neighborhoods, shaped by its rivers, hills, history, and local character. Those differences make the city interesting, but they also make it harder for newcomers to know which neighborhood is right for them from listings alone.
+          </p>
+          <p class="signup__intro">
+            Pittbound is designed to be the final step in your research: a practical guide to where you might want to live, what questions you should ask, and what the answers mean for your day-to-day life.
+          </p>
+        </div>
 
-        <h2 id="signup-heading" class="signup__title">Stay in the loop</h2>
-        <p class="signup__hint">We&rsquo;ll let you know when Pittbound launches.</p>
+        <div class="signup__card">
+          <h2 id="signup-heading" class="signup__title">Stay in the loop</h2>
+          <p class="signup__hint">We&rsquo;ll let you know when Pittbound launches.</p>
 
-        <form
-          id="signup-form"
-          class="signup__form"
-          action="https://formspree.io/f/xdajllab"
-          method="POST"
-          novalidate
-        >
-          <input
-            type="text"
-            name="_gotcha"
-            class="signup__honeypot"
-            tabindex="-1"
-            autocomplete="off"
-            aria-hidden="true"
+          <form
+            id="signup-form"
+            class="signup__form"
+            action="https://formspree.io/f/xdajllab"
+            method="POST"
+            novalidate
           >
-          <div class="signup__fields">
-            <label class="signup__label" for="email">Email address</label>
             <input
-              class="signup__input"
-              type="email"
-              id="email"
-              name="email"
-              autocomplete="email"
-              placeholder="you@example.com"
-              required
+              type="text"
+              name="_gotcha"
+              class="signup__honeypot"
+              tabindex="-1"
+              autocomplete="off"
+              aria-hidden="true"
             >
-            <button id="submit-button" class="signup__button" type="submit">Notify me</button>
-          </div>
-          <p id="form-message" class="signup__message" role="status" aria-live="polite"></p>
-        </form>
+            <div class="signup__fields">
+              <label class="signup__label" for="email">Email address</label>
+              <input
+                class="signup__input"
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                placeholder="you@example.com"
+                required
+              >
+              <button id="submit-button" class="signup__button" type="submit">Notify me</button>
+            </div>
+            <p id="form-message" class="signup__message" role="status" aria-live="polite"></p>
+          </form>
 
-        <p id="success-message" class="signup__success" hidden role="status" aria-live="polite">
-          You&rsquo;re on the list. We&rsquo;ll be in touch when Pittbound launches.
-        </p>
+          <p id="success-message" class="signup__success" hidden role="status" aria-live="polite">
+            You&rsquo;re on the list. We&rsquo;ll be in touch when Pittbound launches.
+          </p>
+        </div>
       </div>
     </section>
   </main>
