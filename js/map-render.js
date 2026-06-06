@@ -120,7 +120,7 @@ export function setPriceOverlayVisible(map, visible) {
 
   const { imageUrl, bounds } = appState.priceOverlayCache;
   appState.priceOverlayLayer = L.imageOverlay(imageUrl, bounds, {
-    opacity: 0.55,
+    opacity: 1.0,
     interactive: false,
   }).addTo(map);
 

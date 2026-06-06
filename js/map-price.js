@@ -4,11 +4,11 @@ const DEFAULT_IDW_POWER = 3;
 const MAX_IDW_DISTANCE_KM = 4;
 const MAX_IDW_NEIGHBORS = 8;
 
-const GRID_COLS = 128;
-const GRID_ROWS = 96;
+const GRID_COLS = 32;
+const GRID_ROWS = 24;
 const CANVAS_COLS = 512;
 const CANVAS_ROWS = 384;
-const OVERLAY_ALPHA = 0.55;
+const OVERLAY_ALPHA = 1;
 
 const LOW_COLOR = { r: 30, g: 58, b: 138 };
 const HIGH_COLOR = { r: 220, g: 38, b: 38 };
@@ -201,8 +201,30 @@ export function priceGridToCanvas(grid, min, max) {
   canvas.width = CANVAS_COLS;
   canvas.height = CANVAS_ROWS;
   const ctx = canvas.getContext("2d");
-  ctx.imageSmoothingEnabled = true;
+  ctx.imageSmoothingEnabled = false;
   ctx.drawImage(coarseCanvas, 0, 0, CANVAS_COLS, CANVAS_ROWS);
+
+  const cellWidth = CANVAS_COLS / grid.cols;
+  const cellHeight = CANVAS_ROWS / grid.rows;
+  
+  ctx.strokeStyle = "#000000";
+  ctx.lineWidth = 1;
+  
+  for (let col = 0; col <= grid.cols; col += 1) {
+    const x = col * cellWidth + 0.5;
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x, CANVAS_ROWS);
+    ctx.stroke();
+  }
+  
+  for (let row = 0; row <= grid.rows; row += 1) {
+    const y = row * cellHeight + 0.5;
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    ctx.lineTo(CANVAS_COLS, y);
+    ctx.stroke();
+  }
 
   return canvas;
 }
