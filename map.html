@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore Pittsburgh neighborhoods.">
+  <title>Pittbound — Pittsburgh Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+  <link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+  <div class="map-layout">
+    <div id="map" class="map-container" role="application" aria-label="Pittsburgh neighborhood map"></div>
+
+    <aside class="side-panel" aria-label="Listing panel">
+      <header class="panel-header">
+        <h1 class="panel-title">Pittsburgh Listings</h1>
+        <p id="panel-neighborhood" class="panel-neighborhood">All neighborhoods</p>
+        <p id="panel-count" class="panel-count" aria-live="polite">0 listings</p>
+        <button id="clear-neighborhood" class="btn btn--secondary" type="button">
+          Clear neighborhood
+        </button>
+      </header>
+
+      <section class="filters" aria-label="Listing filters">
+        <h2 class="filters__title">Filters</h2>
+        <div class="filters__grid">
+          <div class="filters__field">
+            <label class="filters__label" for="filter-min-price">Min price</label>
+            <input
+              class="filters__input"
+              type="number"
+              id="filter-min-price"
+              name="minPrice"
+              min="0"
+              step="10000"
+              placeholder="e.g. 150000"
+            >
+          </div>
+          <div class="filters__field">
+            <label class="filters__label" for="filter-max-price">Max price</label>
+            <input
+              class="filters__input"
+              type="number"
+              id="filter-max-price"
+              name="maxPrice"
+              min="0"
+              step="10000"
+              placeholder="e.g. 400000"
+            >
+          </div>
+          <div class="filters__field">
+            <label class="filters__label" for="filter-min-beds">Min bedrooms</label>
+            <input
+              class="filters__input"
+              type="number"
+              id="filter-min-beds"
+              name="minBeds"
+              min="0"
+              step="1"
+              placeholder="e.g. 2"
+            >
+          </div>
+        </div>
+        <button id="clear-filters" class="btn btn--secondary" type="button">
+          Clear filters
+        </button>
+      </section>
+
+      <section id="listing-cards" class="listing-cards" aria-label="Listings">
+        <p class="listing-cards__empty">Loading listings…</p>
+      </section>
+    </aside>
+  </div>
+
+  <div id="map-error" class="map-error" role="alert" hidden></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script type="module" src="js/map-main.js"></script>
+</body>
+</html>
