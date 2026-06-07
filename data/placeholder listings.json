@@ -1,0 +1,552 @@
+[
+  {
+    "id": "listing-001",
+    "address": "4219 Liberty Ave, Pittsburgh, PA",
+    "lat": 40.4628,
+    "lng": -79.9485,
+    "neighborhood": "Bloomfield",
+    "price": 285000,
+    "beds": 3,
+    "baths": 1.5,
+    "sqft": 1450,
+    "imageUrls": [
+      "/assets/listing-images/listing-001-01.jpg",
+      "/assets/listing-images/listing-001-02.jpg"
+    ],
+    "summary": "Charming row home on a walkable commercial strip.",
+    "tags": [
+      "walkable",
+      "near transit",
+      "starter home"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-002",
+    "address": "5124 Penn Ave, Pittsburgh, PA",
+    "lat": 40.4589,
+    "lng": -79.9448,
+    "neighborhood": "Bloomfield",
+    "price": 325000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1680,
+    "imageUrls": [
+      "/assets/listing-images/listing-002-01.jpg",
+      "/assets/listing-images/listing-002-02.jpg"
+    ],
+    "summary": "Updated kitchen with fenced backyard near shops and cafes.",
+    "tags": [
+      "updated kitchen",
+      "yard",
+      "family friendly"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-003",
+    "address": "3300 Butler St, Pittsburgh, PA",
+    "lat": 40.4735,
+    "lng": -79.9582,
+    "neighborhood": "Central Lawrenceville",
+    "price": 395000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1520,
+    "imageUrls": [
+      "/assets/listing-images/listing-003-01.jpg",
+      "/assets/listing-images/listing-003-02.jpg"
+    ],
+    "summary": "Modern condo steps from Butler Street restaurants.",
+    "tags": [
+      "walkable",
+      "restaurants",
+      "condo"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-004",
+    "address": "4100 Foster St, Pittsburgh, PA",
+    "lat": 40.4718,
+    "lng": -79.9551,
+    "neighborhood": "Central Lawrenceville",
+    "price": 450000,
+    "beds": 4,
+    "baths": 2.5,
+    "sqft": 2100,
+    "imageUrls": [
+      "/assets/listing-images/listing-004-01.jpg",
+      "/assets/listing-images/listing-004-02.jpg"
+    ],
+    "summary": "Spacious duplex with rooftop deck and skyline views.",
+    "tags": [
+      "deck",
+      "views",
+      "duplex"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-005",
+    "address": "5800 Forbes Ave, Pittsburgh, PA",
+    "lat": 40.4428,
+    "lng": -79.9285,
+    "neighborhood": "Squirrel Hill North",
+    "price": 520000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1980,
+    "imageUrls": [
+      "/assets/listing-images/listing-005-01.jpg",
+      "/assets/listing-images/listing-005-02.jpg"
+    ],
+    "summary": "Classic brick home near Murray Avenue shops.",
+    "tags": [
+      "established block",
+      "shops nearby",
+      "brick"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-006",
+    "address": "2120 Beechwood Blvd, Pittsburgh, PA",
+    "lat": 40.4465,
+    "lng": -79.9198,
+    "neighborhood": "Squirrel Hill North",
+    "price": 610000,
+    "beds": 5,
+    "baths": 3,
+    "sqft": 2450,
+    "imageUrls": [
+      "/assets/listing-images/listing-006-01.jpg",
+      "/assets/listing-images/listing-006-02.jpg"
+    ],
+    "summary": "Large Tudor with finished basement close to Frick Park.",
+    "tags": [
+      "parking",
+      "park nearby",
+      "family home"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-007",
+    "address": "120 Shiloh St, Pittsburgh, PA",
+    "lat": 40.4285,
+    "lng": -80.0102,
+    "neighborhood": "Mount Washington",
+    "price": 375000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1280,
+    "imageUrls": [
+      "/assets/listing-images/listing-007-01.jpg",
+      "/assets/listing-images/listing-007-02.jpg"
+    ],
+    "summary": "Incline-adjacent home with dramatic city views.",
+    "tags": [
+      "views",
+      "character home",
+      "hillside"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-008",
+    "address": "45 Grandview Ave, Pittsburgh, PA",
+    "lat": 40.4238,
+    "lng": -80.0055,
+    "neighborhood": "Mount Washington",
+    "price": 425000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1150,
+    "imageUrls": [
+      "/assets/listing-images/listing-008-01.jpg",
+      "/assets/listing-images/listing-008-02.jpg"
+    ],
+    "summary": "Renovated unit overlooking the Golden Triangle.",
+    "tags": [
+      "views",
+      "renovated",
+      "condo"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-009",
+    "address": "5400 Ellsworth Ave, Pittsburgh, PA",
+    "lat": 40.4518,
+    "lng": -79.9342,
+    "neighborhood": "Shadyside",
+    "price": 485000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1620,
+    "imageUrls": [
+      "/assets/listing-images/listing-009-01.jpg",
+      "/assets/listing-images/listing-009-02.jpg"
+    ],
+    "summary": "Victorian row house on a tree-lined residential street.",
+    "tags": [
+      "walkable",
+      "Victorian",
+      "Walnut Street nearby"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-010",
+    "address": "5900 Fifth Ave, Pittsburgh, PA",
+    "lat": 40.4552,
+    "lng": -79.9298,
+    "neighborhood": "Shadyside",
+    "price": 550000,
+    "beds": 4,
+    "baths": 2.5,
+    "sqft": 2050,
+    "imageUrls": [
+      "/assets/listing-images/listing-010-01.jpg",
+      "/assets/listing-images/listing-010-02.jpg"
+    ],
+    "summary": "Updated single-family near hospitals and universities.",
+    "tags": [
+      "near hospitals",
+      "updated",
+      "quiet block"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-011",
+    "address": "5600 Stanton Ave, Pittsburgh, PA",
+    "lat": 40.4788,
+    "lng": -79.9145,
+    "neighborhood": "Highland Park",
+    "price": 340000,
+    "beds": 3,
+    "baths": 1.5,
+    "sqft": 1380,
+    "imageUrls": [
+      "/assets/listing-images/listing-011-01.jpg",
+      "/assets/listing-images/listing-011-02.jpg"
+    ],
+    "summary": "Cozy bungalow walking distance to the reservoir loop.",
+    "tags": [
+      "park nearby",
+      "bungalow",
+      "starter home"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-012",
+    "address": "7140 Hampton St, Pittsburgh, PA",
+    "lat": 40.4815,
+    "lng": -79.9182,
+    "neighborhood": "Highland Park",
+    "price": 410000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1760,
+    "imageUrls": [
+      "/assets/listing-images/listing-012-01.jpg",
+      "/assets/listing-images/listing-012-02.jpg"
+    ],
+    "summary": "Renovated home with front porch near zoo entrance.",
+    "tags": [
+      "porch",
+      "family friendly",
+      "renovated"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-013",
+    "address": "6100 Penn Ave, Pittsburgh, PA",
+    "lat": 40.4648,
+    "lng": -79.9215,
+    "neighborhood": "East Liberty",
+    "price": 315000,
+    "beds": 2,
+    "baths": 2,
+    "sqft": 1180,
+    "imageUrls": [
+      "/assets/listing-images/listing-013-01.jpg",
+      "/assets/listing-images/listing-013-02.jpg"
+    ],
+    "summary": "Loft-style unit near Target and transit connections.",
+    "tags": [
+      "transit",
+      "loft",
+      "walkable"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-014",
+    "address": "7200 Penn Ave, Pittsburgh, PA",
+    "lat": 40.4675,
+    "lng": -79.9262,
+    "neighborhood": "East Liberty",
+    "price": 365000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1490,
+    "imageUrls": [
+      "/assets/listing-images/listing-014-01.jpg",
+      "/assets/listing-images/listing-014-02.jpg"
+    ],
+    "summary": "Townhome with garage near Bakery Square.",
+    "tags": [
+      "garage",
+      "townhome",
+      "near shops"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-015",
+    "address": "1800 E Carson St, Pittsburgh, PA",
+    "lat": 40.4288,
+    "lng": -79.9725,
+    "neighborhood": "South Side Flats",
+    "price": 299000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 1050,
+    "imageUrls": [
+      "/assets/listing-images/listing-015-01.jpg",
+      "/assets/listing-images/listing-015-02.jpg"
+    ],
+    "summary": "Compact row home near South Side Works and trails.",
+    "tags": [
+      "nightlife nearby",
+      "starter home",
+      "row home"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-016",
+    "address": "2200 Sarah St, Pittsburgh, PA",
+    "lat": 40.4242,
+    "lng": -79.9658,
+    "neighborhood": "South Side Flats",
+    "price": 335000,
+    "beds": 3,
+    "baths": 1.5,
+    "sqft": 1320,
+    "imageUrls": [
+      "/assets/listing-images/listing-016-01.jpg",
+      "/assets/listing-images/listing-016-02.jpg"
+    ],
+    "summary": "Bright home with updated bath close to riverfront paths.",
+    "tags": [
+      "river nearby",
+      "updated bath",
+      "walkable"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-017",
+    "address": "1200 S Braddock Ave, Pittsburgh, PA",
+    "lat": 40.4325,
+    "lng": -79.8955,
+    "neighborhood": "Regent Square",
+    "price": 425000,
+    "beds": 4,
+    "baths": 2,
+    "sqft": 1850,
+    "imageUrls": [
+      "/assets/listing-images/listing-017-01.jpg",
+      "/assets/listing-images/listing-017-02.jpg"
+    ],
+    "summary": "Solid brick home on a quiet street near Frick Park.",
+    "tags": [
+      "brick",
+      "quiet block",
+      "park nearby"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-018",
+    "address": "800 S Braddock Ave, Pittsburgh, PA",
+    "lat": 40.4308,
+    "lng": -79.8982,
+    "neighborhood": "Regent Square",
+    "price": 475000,
+    "beds": 4,
+    "baths": 2.5,
+    "sqft": 2100,
+    "imageUrls": [
+      "/assets/listing-images/listing-018-01.jpg",
+      "/assets/listing-images/listing-018-02.jpg"
+    ],
+    "summary": "Expanded colonial with finished attic and driveway.",
+    "tags": [
+      "driveway",
+      "family home",
+      "finished attic"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-019",
+    "address": "6700 Reynolds St, Pittsburgh, PA",
+    "lat": 40.4478,
+    "lng": -79.9065,
+    "neighborhood": "Point Breeze",
+    "price": 565000,
+    "beds": 5,
+    "baths": 3,
+    "sqft": 2600,
+    "imageUrls": [
+      "/assets/listing-images/listing-019-01.jpg",
+      "/assets/listing-images/listing-019-02.jpg"
+    ],
+    "summary": "Grand home on a wide lot near Frick Environmental Center.",
+    "tags": [
+      "large lot",
+      "historic",
+      "family home"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-020",
+    "address": "5400 Fifth Ave, Pittsburgh, PA",
+    "lat": 40.4445,
+    "lng": -79.9092,
+    "neighborhood": "Point Breeze",
+    "price": 495000,
+    "beds": 4,
+    "baths": 2.5,
+    "sqft": 2200,
+    "imageUrls": [
+      "/assets/listing-images/listing-020-01.jpg",
+      "/assets/listing-images/listing-020-02.jpg"
+    ],
+    "summary": "Elegant four-square with original woodwork and sunroom.",
+    "tags": [
+      "sunroom",
+      "woodwork",
+      "established block"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-021",
+    "address": "5100 Penn Ave, Pittsburgh, PA",
+    "lat": 40.4695,
+    "lng": -79.9395,
+    "neighborhood": "Garfield",
+    "price": 265000,
+    "beds": 3,
+    "baths": 1,
+    "sqft": 1240,
+    "imageUrls": [
+      "/assets/listing-images/listing-021-01.jpg",
+      "/assets/listing-images/listing-021-02.jpg"
+    ],
+    "summary": "Affordable home near Garfield night market corridor.",
+    "tags": [
+      "affordable",
+      "near shops",
+      "starter home"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-022",
+    "address": "4800 Black St, Pittsburgh, PA",
+    "lat": 40.4668,
+    "lng": -79.9352,
+    "neighborhood": "Garfield",
+    "price": 295000,
+    "beds": 3,
+    "baths": 1.5,
+    "sqft": 1360,
+    "imageUrls": [
+      "/assets/listing-images/listing-022-01.jpg",
+      "/assets/listing-images/listing-022-02.jpg"
+    ],
+    "summary": "Renovated kitchen and deck with Bloomfield access.",
+    "tags": [
+      "deck",
+      "updated kitchen",
+      "walkable"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-023",
+    "address": "3900 Butler St, Pittsburgh, PA",
+    "lat": 40.4755,
+    "lng": -79.9605,
+    "neighborhood": "Lower Lawrenceville",
+    "price": 380000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1480,
+    "imageUrls": [
+      "/assets/listing-images/listing-023-01.jpg",
+      "/assets/listing-images/listing-023-02.jpg"
+    ],
+    "summary": "Townhouse near river trail with modern finishes.",
+    "tags": [
+      "river trail",
+      "townhome",
+      "modern"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-024",
+    "address": "4300 Butler St, Pittsburgh, PA",
+    "lat": 40.4722,
+    "lng": -79.9578,
+    "neighborhood": "Lower Lawrenceville",
+    "price": 420000,
+    "beds": 3,
+    "baths": 2.5,
+    "sqft": 1720,
+    "imageUrls": [
+      "/assets/listing-images/listing-024-01.jpg",
+      "/assets/listing-images/listing-024-02.jpg"
+    ],
+    "summary": "Open-layout home with parking near 40th Street Bridge.",
+    "tags": [
+      "parking",
+      "bridge views",
+      "open layout"
+    ],
+    "sourceUrl": ""
+  },
+  {
+    "id": "listing-025",
+    "address": "100 S 21st St, Pittsburgh, PA",
+    "lat": 40.4285,
+    "lng": -79.9815,
+    "neighborhood": "South Side Flats",
+    "price": 275000,
+    "beds": 2,
+    "baths": 1,
+    "sqft": 980,
+    "imageUrls": [
+      "/assets/listing-images/listing-025-01.jpg",
+      "/assets/listing-images/listing-025-02.jpg"
+    ],
+    "summary": "Starter condo close to Carson Street dining.",
+    "tags": [
+      "condo",
+      "starter home",
+      "dining nearby"
+    ],
+    "sourceUrl": ""
+  }
+]

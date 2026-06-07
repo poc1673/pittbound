@@ -65,8 +65,8 @@ df = filter(row -> occursin("PITTSBURGH", row.MUNIDESC), df)
 println("Number of rows after filtering: ", nrow(df))
 
 # Sample 50 results randomly from the filtered results and output as a DataFrame.
-n = min(50, nrow(df))
-sample_idx = randperm(nrow(df))[1:n]
-sample_df = df[sample_idx, :]
+# n = min(50, nrow(df))
+# sample_idx = randperm(nrow(df))[1:n]
+# sample_df = df[sample_idx, :]
 
-CSV.write("sample data.csv", sample_df)
+CSV.write("sample data.csv", df)
