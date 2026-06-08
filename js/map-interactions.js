@@ -1,6 +1,6 @@
 import { appState } from "./map-state.js";
 import {
-  getFilteredListings,
+  getMapListings,
   neighborhoodStyles,
   renderListings,
   renderPriceOverlay,
@@ -28,7 +28,7 @@ export function bindNeighborhoodEvents(feature, layer) {
   layer.on("click", () => selectNeighborhood(name, layer));
 }
 
-/** Select a neighborhood, zoom to it, and filter listings. */
+/** Select a neighborhood, zoom to it, and filter the side panel only. */
 export function selectNeighborhood(neighborhoodName, layer) {
   appState.selectedNeighborhood = neighborhoodName;
   appState.selectedNeighborhoodLayer = layer;
@@ -37,7 +37,7 @@ export function selectNeighborhood(neighborhoodName, layer) {
   resetNeighborhoodStyles();
   appState.map.fitBounds(layer.getBounds(), { padding: [20, 20] });
 
-  renderPriceOverlay(appState.map, getFilteredListings());
+  renderPriceOverlay(appState.map, getMapListings());
   renderListings(appState.map, bindListingMarkerEvents);
   renderSidePanel();
 }
@@ -51,7 +51,7 @@ export function clearNeighborhoodSelection() {
   resetNeighborhoodStyles();
   appState.map.setView([40.4406, -79.9959], 12);
 
-  renderPriceOverlay(appState.map, getFilteredListings());
+  renderPriceOverlay(appState.map, getMapListings());
   renderListings(appState.map, bindListingMarkerEvents);
   renderSidePanel();
 }

@@ -1,7 +1,7 @@
 import { appState } from "./map-state.js";
 import { loadNeighborhoods, loadListings } from "./map-data.js";
 import {
-  getFilteredListings,
+  getMapListings,
   renderNeighborhoods,
   renderListings,
   renderPriceOverlay,
@@ -47,7 +47,7 @@ function applyFiltersFromInputs() {
 /** Re-render markers, overlay, and panel after filter changes. */
 function refreshFilteredView() {
   applyFiltersFromInputs();
-  renderPriceOverlay(appState.map, getFilteredListings());
+  renderPriceOverlay(appState.map, getMapListings());
   renderListings(appState.map, bindListingMarkerEvents);
   renderSidePanel();
 }
@@ -63,7 +63,7 @@ function clearFilters() {
   if (minBeds) minBeds.value = "";
 
   appState.filters = { minPrice: null, maxPrice: null, minBeds: null };
-  renderPriceOverlay(appState.map, getFilteredListings());
+  renderPriceOverlay(appState.map, getMapListings());
   renderListings(appState.map, bindListingMarkerEvents);
   renderSidePanel();
 }
@@ -131,7 +131,7 @@ async function init() {
     const [geojson, listings] = await Promise.all([loadNeighborhoods(), loadListings()]);
     appState.listings = listings;
 
-    renderPriceOverlay(appState.map, getFilteredListings());
+    renderPriceOverlay(appState.map, getMapListings());
     renderNeighborhoods(appState.map, geojson, bindNeighborhoodEvents);
     renderListings(appState.map, bindListingMarkerEvents);
     renderSidePanel();

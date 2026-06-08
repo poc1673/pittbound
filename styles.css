@@ -136,6 +136,20 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.signup__secondary {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-top: 1.25rem;
+}
+
+.signup__secondary a {
+  color: var(--accent-gold);
+}
+
+.signup__secondary a:hover {
+  color: var(--text);
+}
+
 .signup__card.is-success .signup__fields,
 .signup__card.is-success .signup__hint,
 .signup__card.is-success .signup__title {
